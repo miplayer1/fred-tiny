@@ -1,0 +1,121 @@
+/**Helper
+
+**/
+
+/** TYPO **/
+h1, h2 {
+  font-size: 1.8rem;
+  font-family: raleway;
+  color: #7a3060;
+}
+h3 {
+	font-size: 1.6rem;
+  font-family: raleway thin;
+  color: grey;
+}
+p {
+	font-size: 1.5rem;
+}
+#section1 p {
+	font-size: 1rem;
+}
+#section2 h2 {
+	color: #fffd15;
+}
+footer p {
+	font-size: 1rem;
+	}
+.nav-wrapper {
+	background-color: #21a0a0;
+}
+header {
+
+  position: relative;
+  display: flex;
+  background-image: ;
+ /** background-color:#fffd15;**/
+  background-size: cover;
+  background-position:center center;
+  height: 110vh;
+
+}
+
+
+.logo {
+	z-index: 2;
+	
+}
+.content {
+  margin: auto;
+  z-index: 2;
+}
+.social a {
+	padding: 5px;
+}
+
+#section1, #section2 {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+#section2 {
+	background-color: #7a3060;
+}
+
+.margin-top {
+	margin-top: 50px;
+	
+}
+/**.activator img {
+	margin: 30px;
+}**/
+.separator {
+	margin-bottom: 30px;
+	
+}
+.divider {
+	background-color : white;
+}
+
+#sidenav-overlay {
+  z-index: 1;
+}
+.no-margin-bottom {
+	margin-bottom: 0!important;
+}
+
+.page-footer {
+	background-color: #fffd15;
+}
+blockquote {
+	font-family: raleway;
+	color: #7a3060;
+	border-color: #21a0a0;
+	font-size: 1rem;
+}
+#carte {
+	height: 93vh;
+}
+#title-carte {
+	height: 7vh;
+	background-color: #fffd15;
+	padding : 5px;
+}
+#title-carte span {
+	color:#7a3060;
+	font-family: raleway;
+}
+
+
+
+/**MEDIA QUERIES**/
+
+@media all and (min-width: 601px){
+	blockquote {
+		font-size: 1.5rem;	
+	}
+}
+@media all and (min-width: 1200px){
+	blockquote {
+		font-size: 2rem;	
+	}
+}
