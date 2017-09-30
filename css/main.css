@@ -29,26 +29,65 @@ footer p {
 	background-color: #21a0a0;
 }
 header {
-
   position: relative;
   display: flex;
   background-image: ;
  /** background-color:#fffd15;**/
   background-size: cover;
   background-position:center center;
-  height: 110vh;
-
+  height: 100vh;
 }
-
 
 .logo {
 	z-index: 2;
-	
 }
+
 .content {
   margin: auto;
   z-index: 2;
 }
+
+#video-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+video {
+  width: 100%;
+  /*height: 100%;*/
+}
+
+.tagline span {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+.tagline span ul li {
+  display: none;
+}
+
+.tagline span ul li.display {
+  display: block !important;
+}
+
+.tagline h1 {
+  padding-right: 50px;
+}
+
 .social a {
 	padding: 5px;
 }
@@ -63,14 +102,14 @@ padding-bottom: 50px;
 
 .margin-top {
 	margin-top: 50px;
-	
+
 }
 /**.activator img {
 	margin: 30px;
 }**/
 .separator {
 	margin-bottom: 30px;
-	
+
 }
 .divider {
 	background-color : white;
@@ -111,11 +150,11 @@ blockquote {
 
 @media all and (min-width: 601px){
 	blockquote {
-		font-size: 1.5rem;	
+		font-size: 1.5rem;
 	}
 }
 @media all and (min-width: 1200px){
 	blockquote {
-		font-size: 2rem;	
+		font-size: 2rem;
 	}
 }

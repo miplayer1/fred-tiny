@@ -4,24 +4,28 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    
-    <title>[LAB]4Makers] | Collectif engagé dans la transition numérique</title>
-    <meta name="keywords" content="transition numérique, coding goûter, fablab, makerspace, outils numériques" />
-    <meta name="publisher" content="[LAB]4Makers">
-    <meta name="description" content="Nous souhaitons mettre en lien les acteurs numériques de la Région PACA afin de permettre l'acquisition, l'appropriation et le partage de connaissances dans le domaine des technologies numériques " />
+
+    <title>Fred travaux et rénovation | Un partenaire proche de vous et de confiance pour vos petits travaux et vos remises en état</title>
+    <meta name="keywords" content="petits travaux, remise en état, rénovation, bricolage, proche, local, qualité, confiance" />
+    <meta name="publisher" content="Fred travaux et rénovation">
+    <meta name="description" content="Un partenaire proche de vous et de confiance pour vos petits travaux et vos remises en état " />
     <?php
 	include('private/views/head.php');
 ?>
 <!-- Open Graph Meta Tags -->
-	<meta property="og:title" content="[LAB]4Makers] | Collectif engagé dans la transition numérique" />
-	<meta property="og:site_name" content="[LAB]4Makers">
+	<meta property="og:title" content="Fred travaux et rénovation | Un partenaire proche de vous et de confiance pour vos petits travaux et vos remises en état" />
+	<meta property="og:site_name" content="Fred travaux et rénovations">
 	<meta property="og:url" content="http://www.labprovence.xyz/" />
-	<meta property="og:description" content="Nous souhaitons mettre en lien les acteurs numériques de la Région PACA afin de permettre l'acquisition, l'appropriation et le partage de connaissances dans le domaine des technologies numériques" />
+	<meta property="og:description" content="Un partenaire proche de vous et de confiance pour vos petits travaux et vos remises en état " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="http://www.labprovence.xyz/assets/og-img.png" />
   </head>
   <body >
-    <div class="navbar-fixed">
+    <?php
+      include('private/views/nav.php');
+    ?>
+
+    <!-- <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper">
         <a href="#" data-activates="mobile-menu" class="button-collapse right"><i class="material-icons">menu</i></a>
@@ -37,18 +41,29 @@
         </ul>
         </div>
       </nav>
-    </div><!--NAV-->
+    </div> -->
+    <!--NAV-->
     <header>
+      <div class="hide-on-med-and-down" id="video-header">
+        <div id="video-overlay"></div>
+        <video autoplay loop muted><source src="http://localhost/fred-tiny/assets/video-bricolage.mp4" type="video/mp4" alt="video"></video>
+      </div>
     <div class="content">
         <div class="row">
-        <div class="col s12 center-align" id="video-header">
-	        <video autoplay loop><source src="http://localhost/mpaw-tiny/assets/video-bricolage.mp4" type="video/mp4" alt="video"></video>
-        </div>
           <div class="col s12 center-align">
 				<img class="responsive-img" src="assets/logoboite.svg" alt="Logo" width="">
           </div><!--LOGO-->
-          <div class="col s12 ">
+          <div class="col s12 tagline">
             <h1 class="center-align">
+              Comptez-sur moi pour vos
+              <span>
+                <ul>
+                  <li class="display">Petits travaux</li>
+                  <li>Rénovation</li>
+                  <li>Plomberie</li>
+                  <li>Peinture</li>
+                </ul>
+              </span>
             </h1>
             <div class="separator col s4 offset-s4 divider">
             </div><!--DIVIDER-->
@@ -63,6 +78,10 @@
 
     </header><!--HEADER-->
 	<section id="section1" class="scrollspy">
+    <div class="col s12 m8 offset-m2 white-text">
+    <h2 class="center-align">Mes services</h2>
+    </div>
+    <div class="separator col s2 offset-s5 divider"></div>
 	<?php
 	include('private/views/cards-add.php');
 ?>
@@ -72,13 +91,13 @@
 	 <div class="container">
 	 	<div class="row">
       	<div class="col s12 m8 offset-m2 white-text">
-        <h2 class="center-align">Le collectif [LAB]4Makers</h2>
+        <h2 class="center-align">Pourquoi moi ?</h2>
         </div>
         <div class="separator col s2 offset-s5 divider"></div>
         <div class="col s12 center-align">
         	<p class="white-text">
-        		Le collectif se compose de makers, développeurs, programmeurs... qui souhaitent mettre en lien l'univers makers et les gens. Il se passe des choses fascinantes dans les Fablabs, mais ouvrir leur porte est parfois intimidant. Pourquoi ? Peut être parce qu'on ne comprend pas bien ce qu'on y fait.
-        		<br><br>Le collectif se fixe comme objectif de permettre l'acquisition, l'appropriation et le partage de connaissances dans le domaine des technologies numériques en région PACA avec, pour le moment, <a href="coding-gouter.php">des coding goûters et des ressources pour animer son atelier</a> et <a href="carte.php"> une carte collaborative</a> recensant les fabslabs et les actions en lien avec notre objet.</p>
+            "Dans une maison on a toujours des choses à faire..."
+        	</p>
 
         </div>
        </div>
@@ -88,7 +107,7 @@
 
 <section id="contact" class="container scrollspy">
 	    <div class="col s12">
-	      <h2 class="dark-green center-align">Contactez-nous !</h2>
+	      <h2 class="dark-green center-align">Dites moi tout</h2>
 	      <div class="col s12"></div>
 	    </div>
 

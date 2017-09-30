@@ -3,10 +3,10 @@
 	      <h2 class="dark-green center-align">Contactez-nous !</h2>
 	      <div class="col s12"></div>
 	    </div>
-	
+
 	  <div class="row">
 	    <form class="col s12" action="#contact" method="POST">
-	
+
 	      <div class="row">
 	        <div class="input-field col s12">
 	          <i class="material-icons prefix">account_circle</i>
@@ -46,6 +46,5 @@
 	        <?php echo $feedback; ?>
 	      </div>
 	    </form>
-	
 	  </div>
 	</section><!--SECTION CONTACT FORM-->

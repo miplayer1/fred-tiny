@@ -1,5 +1,5 @@
-	<meta charset="utf-8"/>	 
-	 <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no" />
+	<meta charset="utf-8"/>
+	 <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=yes" />
     <meta name="google-site-verification" content="rBRnpj5XSqUqYyI27OQ52hRYjk1PkW2Z1i3E9ces7oE" />
     <link href="https://fonts.googleapis.com/css?family=Roboto|Josefin+Slab%7cRaleway:900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
