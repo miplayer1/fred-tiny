@@ -1,9 +1,9 @@
    <footer class="page-footer">
           <div class="container  ">
             <div class="row ">
-              <div class=" col  s12 center-align">               
-              
-              </div>              
+              <div class=" col  s12 center-align">
+
+              </div>
             </div>
           </div><!--HAUT-FOOTER-->
           <div class="footer-copyright grey-text ">
@@ -17,7 +17,7 @@
                   <h3>Responsable de la publication :</h3>
                   <p></p><!--RESPONSABLE PUBLICATION-->
                   <h3>Hébergement :</h3>
-                  <p><a href="https://gandi.net">GANDI SAS</a>, Société par Actions Simplifiée au capital de 300.000€ 
+                  <p><a href="https://gandi.net">GANDI SAS</a>, Société par Actions Simplifiée au capital de 300.000€
                   ayant son siège social au 63-65 boulevard Massena à Paris (75013) FRANCE,
                    immatriculée sous le numéro 423 093 459 RCS PARIS N° TVA FR81423093459 Téléphone :
                     +33.(0) 1 70.37.76.61 .</p><!--HEBERGEMENT-->
@@ -35,5 +35,6 @@
 			  src="https://code.jquery.com/jquery-3.2.1.min.js"
 			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 			  crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js" ></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>

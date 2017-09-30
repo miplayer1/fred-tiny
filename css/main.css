@@ -92,6 +92,10 @@ video {
 	padding: 5px;
 }
 
+#mapid {
+  height: 500px;
+}
+
 #section1, #section2 {
 padding-top: 50px;
 padding-bottom: 50px;

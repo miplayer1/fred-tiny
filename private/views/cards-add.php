@@ -35,7 +35,7 @@
 		        <div class="card-image">
 		          <img class="activator" src="assets/lab4what.png">
 		          <span class="card-title">Infos pratiques</span><!--CARD TITLE-->
-		          <a href="#section2" class="btn-floating halfway-fab waves-effect waves-light red activator"><i class="material-icons">add</i></a>
+		          <span class="btn-floating halfway-fab waves-effect waves-light red activator"><i class="material-icons">add</i></span>
 		        </div><!--CARD IMG-->
 		        <div class="card-content activator">
 		          <p>Infos pratiques</p>
@@ -47,3 +47,4 @@
        </div><!--CARD 3-->
 	</div><!--CARDS-->
 </div><!--ROW-->
+<div id="mapid"></div>
