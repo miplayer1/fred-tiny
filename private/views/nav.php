@@ -1,6 +1,6 @@
-<div class="navbar-fixed">
+<div class="navbar-fixed ">
       <nav>
-        <div class="nav-wrapper">
+        <div class="nav-wrapper  blue-grey darken-1">
         <a href="#" data-activates="mobile-menu" class="button-collapse right"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="index.php#section1">Mes services</a></li>

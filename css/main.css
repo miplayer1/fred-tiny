@@ -19,9 +19,7 @@ p {
 #section1 p {
 	font-size: 1rem;
 }
-#section2 h2 {
-	color: #fffd15;
-}
+
 footer p {
 	font-size: 1rem;
 	}
@@ -35,7 +33,7 @@ header {
  /** background-color:#fffd15;**/
   background-size: cover;
   background-position:center center;
-  height: 100vh;
+  height: 95vh;
 }
 
 .logo {
@@ -52,6 +50,9 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  overflow: hidden;
+  height: 95vh;
+  
 }
 
 #video-overlay {
@@ -59,34 +60,37 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 95vh;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 video {
-  width: 100%;
+ /* width: 100%;*/
   /*height: 100%;*/
+ 
 }
 
 .tagline span {
   display: inline-block;
-  background-color: rgba(255, 255, 255, 0.5);
+ /* background-color: rgba(255, 255, 255, 0.5);*/
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 5px;
+  line-height: 0.5rem;
 }
 
 .tagline span ul li {
   display: none;
+  font-size: 1.6rem;
 }
 
 .tagline span ul li.display {
   display: block !important;
 }
 
-.tagline h1 {
+/*.tagline h1 {
   padding-right: 50px;
-}
+}*/
 
 .social a {
 	padding: 5px;
@@ -95,6 +99,12 @@ video {
 #section1, #section2 {
 padding-top: 50px;
 padding-bottom: 50px;
+}
+
+.card-content p {
+	color:grey!important;
+	font-size: 2rem!important;
+	text-align: center!important;
 }
 #section2 {
 	background-color: #7a3060;
@@ -120,28 +130,6 @@ padding-bottom: 50px;
 }
 .no-margin-bottom {
 	margin-bottom: 0!important;
-}
-
-.page-footer {
-	background-color: #fffd15;
-}
-blockquote {
-	font-family: raleway;
-	color: #7a3060;
-	border-color: #21a0a0;
-	font-size: 1rem;
-}
-#carte {
-	height: 93vh;
-}
-#title-carte {
-	height: 7vh;
-	background-color: #fffd15;
-	padding : 5px;
-}
-#title-carte span {
-	color:#7a3060;
-	font-family: raleway;
 }
 
 

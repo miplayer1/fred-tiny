@@ -25,61 +25,61 @@
       include('private/views/nav.php');
     ?>
 
-    <!-- <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper">
-        <a href="#" data-activates="mobile-menu" class="button-collapse right"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#section1">Activités</a></li>
-          <li><a href="#section2">Qui sommes-nous ?</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-menu">
-          <li><a href="#section1">Activités</a></li>
-          <li><a href="#section2">Qui sommes-nous ?</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        </div>
-      </nav>
-    </div> -->
-    <!--NAV-->
     <header>
-      <div class="hide-on-med-and-down" id="video-header">
+      <div class="show-on-med-and-up" id="video-header">
         <div id="video-overlay"></div>
         <video autoplay loop muted><source src="http://localhost/fred-tiny/assets/video-bricolage.mp4" type="video/mp4" alt="video"></video>
       </div>
     <div class="content">
         <div class="row">
           <div class="col s12 center-align">
-				<img class="responsive-img" src="assets/logoboite.svg" alt="Logo" width="">
+				<img class="responsive-img" src="assets/logo-fred-petits-travaux.png" alt="Logo" width="180px">
           </div><!--LOGO-->
           <div class="col s12 tagline">
-            <h1 class="center-align">
-              Comptez-sur moi pour vos
-              <span>
+            <h1 class="center-align white-text">
+              Comptez-sur moi pour vos<br><br>
+              <span class=" blue-grey darken-1">
                 <ul>
                   <li class="display">Petits travaux</li>
-                  <li>Rénovation</li>
-                  <li>Plomberie</li>
-                  <li>Peinture</li>
+                  <li>Rénovations</li>
+                  <li>Plomberies</li>
+                  <li>Peintures</li>
                 </ul>
               </span>
             </h1>
             <div class="separator col s4 offset-s4 divider">
             </div><!--DIVIDER-->
           </div><!--TAGLINE-->
+                    <div class="col s12 social center-align">           
+            <span class="white-text"><i class="material-icons">&#xE325;</i><br>+336 12 34 31 70</span>
+           </div>
+           <div class="col s12 social center-align"><span class="white-text"><i class="material-icons">&#xE88A;</i><br>J' interviens sur<br>Ceyreste, La Ciotat, Aubagne et alentours</span></div>
+			</div>
+			<div class="col s12 center-align">
+				                 <a href="https://www.facebook.com/fred.renovationstravaux" target="_blank" ><img src="assets/logo-fb.png" alt="Suivez-nous sur Facebook"></a>		
+			</div>
+         <div class="fixed-action-btn horizontal">
+    			<a href='tel:33684205036' class="btn-floating btn-large red"><i class="material-icons">&#xE325;</i></a>
+   			 <ul>
+      			<li>
+  						<div class="chip">
+   						+336 12 34 31 70
+  						</div>
+        			</li>
+    			</ul>
+ 			 </div>
 
-          <div class="col s12 social center-align">
+          <!--<div class="col s12 social center-align">
             <a href="https://www.facebook.com/labprovence" target="_blank"><img class="responsive-img" src="assets/logo-fb.png" alt="Lien vers facebook"></a>
-            <a href="https://twitter.com/lab_lp" target="_blank"><img class="responsive-img" src="assets/logo-twitter.png" alt="Lien vers twitter"></a>
-          </div><!--SOCIAL-->
+           
+          </div>--><!--SOCIAL-->
         </div><!--ROW-->
       </div><!--CONTENT-->
 
     </header><!--HEADER-->
 	<section id="section1" class="scrollspy">
     <div class="col s12 m8 offset-m2 white-text">
-    <h2 class="center-align">Mes services</h2>
+    <h2 class="center-align blue-grey-text darken-1-text">Mes services</h2>
     </div>
     <div class="separator col s2 offset-s5 divider"></div>
 	<?php
@@ -87,11 +87,11 @@
 ?>
 	</section><!--SECTION 1-->
 
-<section id="section2" class="scrollspy">
+<section id="section2" class="scrollspy blue-grey darken-1">
 	 <div class="container">
 	 	<div class="row">
       	<div class="col s12 m8 offset-m2 white-text">
-        <h2 class="center-align">Pourquoi moi ?</h2>
+        <h2 class="center-align white-text">Pourquoi moi ?</h2>
         </div>
         <div class="separator col s2 offset-s5 divider"></div>
         <div class="col s12 center-align">
@@ -107,7 +107,7 @@
 
 <section id="contact" class="container scrollspy">
 	    <div class="col s12">
-	      <h2 class="dark-green center-align">Dites moi tout</h2>
+	      <h2 class="blue-grey-text darken-1-text center-align">Dites moi tout</h2>
 	      <div class="col s12"></div>
 	    </div>
 
@@ -156,19 +156,37 @@
 
 	  </div>
 	</section><!--SECTION CONTACT FORM-->
-   <footer class="page-footer">
+   <footer class="page-footer blue-grey darken-1">
           <div class="container  ">
             <div class="row ">
-              <div class=" col  s12 center-align">
+                            <div class=" col m4 s12 center-align">
+                <h5 class="center-align white-text">Contacts</h5>
+                <div class="separator col s2 offset-s5 divider"></div>
+                <div class="col s12  center-align">
+               	 <p class="center-align grey-text text-lighten-4">fred.travauxrenovations@gmail.com</p>
+                </div>
+                <div class="col s12 m12 center-align ">
+               	<p class="center-align grey-text text-lighten-4">06 12 34 31 70</p>
+                </div>
+              </div>
+              <div class="center-align social col m4  s12">
+               <h5 class="white-text">Réseaux sociaux </h5>
+            
+               <div class="separator col s2 offset-s5 divider"></div>
+                <div class="col  s12 center-align">
+                 <a href="https://www.facebook.com/fred.renovationstravaux" target="_blank" ><img src="assets/logo-fb.png" alt="Suivez-nous sur Facebook"></a>
+                 
+                </div>            
+              </div>
+              <div class="center-align col m4 s12">
+                <h5 class="white-text">Adresse</h5>
+                <div class="separator col s2 offset-s5 divider"></div>
+               <div class="col s12"><p class="grey-text text-lighten-4">Quartier des Camegiers<br>13600 Ceyreste</p></div>
 
-              <blockquote>" La seule façon de comprendre une nouvelle culture et de nouveaux comportements est de devenir natif. Devenir natif est un processus d’observation, d’apprentissage et d’approfondissement, pratiqué tel un anthropologiste, impliqué directement sur le terrain et en participant étroitement avec ses hôtes à leurs cultures. "
-
-                                                             <br>Brian Solis – Digital Analyst
-                                                                                         </blockquote>
-              </div><!--CONTACT MAIL-->
+               </div><!--CONTACT MAIL-->
 
             </div>
-          </div><!--CITATION-->
+          </div>
           <div class="footer-copyright grey-text ">
             <div class="container ">
            <span class="white-text">CC BY-NC-SA 4.0 - 2017 /</span> <a class="white-text" href="http://www.cooldev.xyz" target="_blank">La Team Cooldev</a>
@@ -176,8 +194,8 @@
             <div id="modal1" class="modal modal-fixed-footer">
                 <div class="modal-content">
                   <h3>SIRET</h3>
-                  <p>Association en cours de création </p>
-                  <h3>Responsable de la publication :</h3> <p>Mylène Hiezely pour le collectif</a></p>
+                  <p>0000 0000 0000 </p>
+                  <h3>Responsable de la publication :</h3> <p>Fred xxxxxx</a></p>
                   <h3>Hébergement :</h3>
                   <p><a href="https://gandi.net">GANDI SAS</a>, Société par Actions Simplifiée au capital de 300.000€ ayant son siège social au 63-65 boulevard Massena à Paris (75013) FRANCE, immatriculée sous le numéro 423 093 459 RCS PARIS N° TVA FR81423093459 Téléphone : +33.(0) 1 70.37.76.61 .</p>
                   <h3>Gestion des données personnelles :</h3>
