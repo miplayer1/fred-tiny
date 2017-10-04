@@ -1,6 +1,6 @@
 <section id="contact" class="container scrollspy">
 	    <div class="col s12">
-	      <h2 class="dark-green center-align">Contactez-nous !</h2>
+	      <h2 class="dark-green center-align">Laissez moi un message :)</h2>
 	      <div class="col s12"></div>
 	    </div>
 
