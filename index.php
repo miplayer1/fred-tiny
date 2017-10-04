@@ -39,19 +39,19 @@
               Professionnel et proche de vous pour un travail de qualité<br><br>
               <span class=" blue-grey darken-1">
                 <ul>
-                  <li class="display">Installer une cuisine équipée</li>
+                  <li class="display">Installer une cuisine</li>
                   <li>Changer un robinet</li>
                   <li>Changer un interrupteur</li>
                   <li>Peindre des volets</li>
                   <li>Poser une tringle</li>
-                  <li>Installer une salle de bain équipée</li>
+                  <li>Installer une salle de bain</li>
                   <li>Poser un parquet</li>
                   <li>Relooker une pièce</li>
                   <li>Poser une terrasse en bois</li>
                   <li>Poser un luminaire</li>
                   <li>Changer une prise</li>
                   <li>Installer un WC</li>
-                  <li>Poser un revêtement mural bois ou pierre</li>
+                  <li>Poser un revêtement mural</li>
                   <li>Installer un abri de jardin</li>
                   <li>Et plus encore...</li>
                 </ul>
@@ -89,7 +89,7 @@
     </header><!--HEADER-->
 	<section id="section1" class="scrollspy">
     <div class="col s12 m8 offset-m2 white-text">
-    <h2 class="center-align blue-grey-text darken-1-text">Mes services</h2>
+    <h2 class="center-align blue-grey-text darken-1-text">Choisir n'est pas simple. Mais je peux vous aider ;)</h2>
     </div>
     <div class="separator col s2 offset-s5 divider"></div>
 	<?php
@@ -108,7 +108,7 @@
         	<p class="white-text">
             "Dans une maison on a toujours des choses à faire..."
         	</p>
-
+          <p></p>
         </div>
        </div>
       </div>

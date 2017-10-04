@@ -12,6 +12,7 @@
 		        </div><!--CARD CONTENT-->
 						<div class="card-reveal">
 							<span class="card-title">Proche de vous<i class="material-icons right">close</i></span>
+							<p></p>
 						</div>
 		      </div>
        </div><!--CARD 1-->
@@ -27,6 +28,7 @@
 		        </div><!--CARD CONTENT-->
 						<div class="card-reveal">
 							<span class="card-title">Fiable<i class="material-icons right">close</i></span>
+							<p></p>
 						</div>
 		      </div>
        </div><!--CARD 2-->
@@ -42,6 +44,7 @@
 		        </div><!--CARD CONTENT-->
 						<div class="card-reveal">
 							<span class="card-title">Professionnel<i class="material-icons right">close</i></span>
+							<p></p>
 						</div>
 		      </div>
        </div><!--CARD 3-->
