@@ -83,7 +83,7 @@
       </div><!--CONTENT-->
 
     </header><!--HEADER-->
-	<section id="section1" class="scrollspy">
+	<section id="section1" class="row scrollspy">
     <div class="col s12 m8 offset-m2 white-text">
     <h2 class="center-align blue-grey-text darken-1-text">Choisir n'est pas simple. Mais je peux vous aider ;)</h2>
     </div>
