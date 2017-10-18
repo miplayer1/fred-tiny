@@ -20,6 +20,7 @@
 	<meta property="og:image" content="http://www.labprovence.xyz/assets/og-img.png" />
   </head>
   <body >
+
     <?php
       include('private/views/nav.php');
     ?>
@@ -36,7 +37,7 @@
           </div><!--LOGO-->
           <div class="col s12 tagline">
             <h1 class="center-align white-text">
-              Professionnel et proche de vous pour un travail de qualité<br><br>
+              Pas le temps ? Pas les outils ? Faites appel à Fred !<br><br>
               <span class=" blue-grey darken-1">
                 <ul>
                   <li class="display">Installer une cuisine</li>
@@ -78,11 +79,6 @@
         			</li>
     			</ul>
  			 </div>
-
-          <!--<div class="col s12 social center-align">
-            <a href="https://www.facebook.com/labprovence" target="_blank"><img class="responsive-img" src="assets/logo-fb.png" alt="Lien vers facebook"></a>
-
-          </div>--><!--SOCIAL-->
         </div><!--ROW-->
       </div><!--CONTENT-->
 
@@ -92,16 +88,17 @@
     <h2 class="center-align blue-grey-text darken-1-text">Choisir n'est pas simple. Mais je peux vous aider ;)</h2>
     </div>
     <div class="separator col s2 offset-s5 divider"></div>
+
 	<?php
 	include('private/views/cards-add.php');
-?>
+  ?>
 	</section><!--SECTION 1-->
 
 <section id="section2" class="scrollspy blue-grey darken-1">
 	 <div class="container">
 	 	<div class="row">
       	<div class="col s12 m8 offset-m2 white-text">
-        <h2 class="center-align white-text">Pourquoi moi ?</h2>
+        <h2 class="center-align white-text">C'est eux qui le disent :)</h2>
         </div>
         <div class="separator col s2 offset-s5 divider"></div>
         <div class="col s12 center-align">
@@ -112,18 +109,15 @@
         </div>
        </div>
       </div>
-
 </section><!--SECTION 2-->
 
 <section id="contact" class="container scrollspy">
 	    <div class="col s12">
-	      <h2 class="blue-grey-text darken-1-text center-align">Dites moi tout</h2>
+	      <h2 class="blue-grey-text darken-1-text center-align">Parlez-moi de votre projet</h2>
 	      <div class="col s12"></div>
 	    </div>
-
 	  <div class="row">
 	    <form class="col s12" action="#contact" method="POST">
-
 	      <div class="row">
 	        <div class="input-field col s12">
 	          <i class="material-icons prefix">account_circle</i>
@@ -154,7 +148,7 @@
 	      </div>
 	      <div class="row">
 	        <div class="col s12 center-align">
-	          <button class="btn waves-effect waves-light cyan darken-3" id="submit" type="submit" name="submit">Envoyer
+	          <button class="btn waves-effect waves-light cyan darken-3 pulse" id="submit" type="submit" name="submit">Envoyer
 	            <i class="material-icons right">send</i>
 	          </button>
 	        </div>

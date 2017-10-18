@@ -12,7 +12,9 @@
 		        </div><!--CARD CONTENT-->
 						<div class="card-reveal">
 							<span class="card-title">Proche de vous<i class="material-icons right">close</i></span>
-							<p></p>
+							<p>J'interviens sur Ceyreste et les communes environnantes dans un périmètre de 20km.</p>
+							<p>A l'écoute de vos besoins, je peux vous accompager, vous conseiller dans vos choix et passer à l'action.</br>
+								 Je suis disponible pour répondre à toutes vos questions.</p>
 						</div>
 		      </div>
        </div><!--CARD 1-->
@@ -28,7 +30,9 @@
 		        </div><!--CARD CONTENT-->
 						<div class="card-reveal">
 							<span class="card-title">Fiable<i class="material-icons right">close</i></span>
-							<p></p>
+							<p>Pas d'à peu près :</br>
+								En faisant appel à moi, vous avez l'assurance d'un travail soigné.</br>
+								 Vous pouvez voir mes réalisations <a href="#">ici</a>.</p>
 						</div>
 		      </div>
        </div><!--CARD 2-->
@@ -37,14 +41,15 @@
 		        <div class="card-image">
 		          <img class="activator" src="assets/picto/qualite.png">
 		         <!-- <span class="card-title">Professionnel</span>--><!--CARD TITLE-->
-		          <a href="#section2" class="btn-floating halfway-fab waves-effect waves-light red activator"><i class="material-icons">add</i></a>
+		          <span class="btn-floating halfway-fab waves-effect waves-light red activator"><i class="material-icons">add</i></span>
 		        </div><!--CARD IMG-->
 		        <div class="card-content activator">
 		          <p>Professionnel</p>
 		        </div><!--CARD CONTENT-->
 						<div class="card-reveal">
 							<span class="card-title">Professionnel<i class="material-icons right">close</i></span>
-							<p></p>
+							<p>Avec les bons outils et mon savoir-faire, vos travaux sont entre de bonnes mains.</br>
+								 J'ai fait de ma passion mon métier et je suis là pour donner vie à vos projets.</p>
 						</div>
 		      </div>
        </div><!--CARD 3-->

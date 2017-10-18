@@ -1,16 +1,5 @@
 $(function(){
 
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker
-    .register('./worker.js', {scope: './'})
-    .then(function(registration) {
-      console.log('Service Worker registered');
-    })
-    .catch(function(err){
-      console.log("Service Worker failed to register ", err);
-    })
-  }
-
   // Egalisation de la hauteur des cartes
  var heights = [];
 
