@@ -102,10 +102,31 @@
         </div>
         <div class="separator col s2 offset-s5 divider"></div>
         <div class="col s12 center-align">
-        	<p class="white-text">
-            "Dans une maison on a toujours des choses à faire..."
-        	</p>
-          <p></p>
+          <div class="slider">
+            <ul class="slides">
+              <?php
+
+                include 'private/src/testimonials.php';
+                foreach ($testimonials as $key => $value) {
+              ?>
+              <li>
+                <div class="caption center-align">
+                  <h3 class="white-text"><?= $key ?></h3>
+                  <blockquote class="white-text"><?= $value ?></blockquote>
+                </div>
+              </li>
+              <?php
+                }
+               ?>
+
+              <!-- <li>
+                <div class="caption center-align">
+                  <h3 class="white-text">John Smith</h3>
+                  <blockquote class="white-text">Du travail soigné, efficace et rapide. Merci</blockquote>
+                </div>
+              </li> -->
+            </ul>
+          </div>
         </div>
        </div>
       </div>

@@ -47,6 +47,12 @@ $(function(){
     $('#modal').modal('close');
   })
 
+// Initialisation slider
+  $('.slider').slider({
+    indicators: false,
+    height: 200
+  });
+
   function boucle()
 {
     // sélectionner l'item actif
