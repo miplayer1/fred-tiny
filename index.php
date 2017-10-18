@@ -133,10 +133,12 @@
 </section><!--SECTION 2-->
 
 <section id="contact" class="container scrollspy">
+		<div class="row">	    
 	    <div class="col s12">
 	      <h2 class="blue-grey-text darken-1-text center-align">Parlez-moi de votre projet</h2>
-	      <div class="col s12"></div>
 	    </div>
+	      <div class="separator col s2 offset-s5 divider"></div>
+	      </row>
 	  <div class="row">
 	    <form class="col s12" action="#contact" method="POST">
 	      <div class="row">
