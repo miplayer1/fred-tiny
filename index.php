@@ -118,13 +118,6 @@
               <?php
                 }
                ?>
-
-              <!-- <li>
-                <div class="caption center-align">
-                  <h3 class="white-text">John Smith</h3>
-                  <blockquote class="white-text">Du travail soigné, efficace et rapide. Merci</blockquote>
-                </div>
-              </li> -->
             </ul>
           </div>
         </div>
@@ -132,13 +125,15 @@
       </div>
 </section><!--SECTION 2-->
 
-<section id="contact" class="container scrollspy">
+<section id="contact" class="scrollspy">
+	<div class="container">
 		<div class="row">	    
-	    <div class="col s12">
+	    <div class="col s12 m8 offset-m2">
 	      <h2 class="blue-grey-text darken-1-text center-align">Parlez-moi de votre projet</h2>
 	    </div>
+	   
 	      <div class="separator col s2 offset-s5 divider"></div>
-	      </row>
+	      </div>
 	  <div class="row">
 	    <form class="col s12" action="#contact" method="POST">
 	      <div class="row">
@@ -180,7 +175,7 @@
 	        <?php echo $feedback; ?>
 	      </div>
 	    </form>
-
+		</div>
 	  </div>
 	</section><!--SECTION CONTACT FORM-->
    <footer class="page-footer blue-grey darken-1">
