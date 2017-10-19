@@ -6,6 +6,7 @@
 h1, h2 {
   font-size: 1.8rem;
   font-family: raleway;
+  font-weight: bold;
   color: #7a3060;
 }
 h3 {

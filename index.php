@@ -5,19 +5,21 @@
 <html lang="fr">
   <head>
 
-    <title>Fred petits travaux et rénovations - Un professionnel proche de vous pour vos petits travaux - vos remises en état - votre bricolage dans la maison</title>
-    <meta name="publisher" content="Fred petits travaux et rénovation">
+    <title>Fred petits travaux et rénovations</title>  
+    <meta name="publisher" content="cooldev.xyz">
     <meta name="description" content="Un professionnel fiable et proche de vous pour vos petits travaux - vos remises en état - votre bricolage dans la maison" />
+	 <meta name="keywords" content="petits travaux Ceyreste, rénovations, remises en état, bricolage, La Ciotat, Aubagne" />	 
+	 <link rel="icon" href="favicon.ico" type="image/ico" sizes="16x16" />    
     <?php
 	include('private/views/head.php');
 ?>
 <!-- Open Graph Meta Tags -->
 	<meta property="og:title" content="Fred petits travaux et rénovations - Un professionnel proche de vous pour vos petits travaux - vos remises en état - votre bricolage dans la maison" />
 	<meta property="og:site_name" content="Fred travaux et rénovations">
-	<meta property="og:url" content="http://www.labprovence.xyz/" />
+	<meta property="og:url" content="http://projets.cooldev.xyz/fred-tiny" />
 	<meta property="og:description" content="Un professionnel proche de vous pour vos petits travaux - vos remises en état - votre bricolage dans la maison" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="http://www.labprovence.xyz/assets/og-img.png" />
+	<meta property="og:image" content="http://projets.cooldev.xyz/fred-tiny/assets/og-img.png" />
   </head>
   <body >
 
