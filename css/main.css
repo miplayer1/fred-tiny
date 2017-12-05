@@ -1,0 +1,139 @@
+/**Helper
+
+**/
+
+/** TYPO **/
+h1, h2 {
+    font-size: 1.8rem;
+    font-family: raleway;
+    font-weight: bold;
+    color: #7a3060;
+  }
+  h3 {
+      font-size: 1.6rem;
+    font-family: raleway thin;
+    color: grey;
+  }
+  p {
+      font-size: 1.5rem;
+  }
+  #section1 p {
+      font-size: 1.2rem;
+  }
+  
+  footer p {
+      font-size: 1rem;
+      }
+  .nav-wrapper {
+      background-color: #21a0a0;
+  }
+  header {
+    position: relative;
+    display: flex;
+    background-size: cover;
+    background-position:center center;
+    height: 95vh;
+  }
+  
+  .logo {
+      z-index: 2;
+  }
+  
+  .content {
+    margin: auto;
+    z-index: 2;
+  }
+  
+  #video-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 95vh;
+    
+  }
+  
+  #video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95vh;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .tagline span {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    line-height: 0.5rem;
+  }
+  
+  .tagline span ul li {
+    display: none;
+    font-size: 1.6rem;
+  }
+  
+  .tagline span ul li.display {
+    display: block !important;
+  }
+  
+  .social a {
+      padding: 5px;
+  }
+  
+  #section1, #section2, #contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  }
+  
+  .card-content p {
+      color:grey!important;
+      font-size: 2rem!important;
+      text-align: center!important;
+  }
+  
+  .margin-top {
+      margin-top: 50px;
+  
+  }
+  
+  .separator {
+      margin-bottom: 30px;
+  
+  }
+  .divider {
+      background-color : white;
+  }
+  #section1 .divider {
+      background-color : #607D8B;
+  }
+  #contact .divider {
+      background-color : #607D8B;
+  }
+  #sidenav-overlay {
+    z-index: 1;
+  }
+  .no-margin-bottom {
+      margin-bottom: 0!important;
+  }
+  
+  .slider .slides{
+      background-color:rgba(0, 0, 0, 0)!important;
+  }
+  
+  /**MEDIA QUERIES**/
+  
+  @media all and (min-width: 601px){
+      blockquote {
+          font-size: 1.5rem;
+      }
+  }
+  @media all and (min-width: 1200px){
+      blockquote {
+          font-size: 2rem;
+      }
+  }
+  

@@ -12,6 +12,7 @@
 		        </div><!--CARD CONTENT-->
 						<div class="card-reveal">
 							<span class="card-title">Proche de vous<i class="material-icons right">close</i></span>
+							<hr>
 							<p>J'interviens sur Ceyreste et les communes environnantes dans un périmètre de 20km.</p>
 							<p>A l'écoute de vos besoins, je peux vous accompager, vous conseiller dans vos choix et passer à l'action.</br>
 								 Je suis disponible pour répondre à toutes vos questions.</p>
@@ -30,6 +31,7 @@
 		        </div><!--CARD CONTENT-->
 						<div class="card-reveal">
 							<span class="card-title">Fiable<i class="material-icons right">close</i></span>
+							<hr>
 							<p>Pas d'à peu près :</br>
 								En faisant appel à moi, vous avez l'assurance d'un travail soigné.</br>
 								 Vous pouvez voir mes réalisations <a href="#">ici</a>.</p>
@@ -48,6 +50,7 @@
 		        </div><!--CARD CONTENT-->
 						<div class="card-reveal">
 							<span class="card-title">Professionnel<i class="material-icons right">close</i></span>
+							<hr>
 							<p>Avec les bons outils et mon savoir-faire, vos travaux sont entre de bonnes mains.</br>
 								 J'ai fait de ma passion mon métier et je suis là pour donner vie à vos projets.</p>
 						</div>
