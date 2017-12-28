@@ -23,4 +23,9 @@ function boucle()
     }
 }
 
-window.setInterval(boucle, 1500);
+document.addEventListener('DOMContentLoaded', function(){
+    var firstItem = document.querySelector('.tagline ul li');
+    firstItem.classList.add('display');
+    
+    window.setInterval(boucle, 1500);    
+})

@@ -43,7 +43,7 @@
         <h3>Gestion des données personnelles :</h3>
         <p>Votre vie privée est très importante pour nous. Pour connaître le trafic sur ce site internet, Nous utilisons <a href="https://piwik.org">Piwik</a>. Piwik est une solution d’analytics qui respecte votre vie privée conformément aux recommandations de la CNIL et ne demande aucune déclaration préalable.</p>
        </div>
-      <div class="modal-footer ">
+      <div class="modal-footer center">
         <a href="#!" class="modal-action modal-close btn-floating "><i class="material-icons ">highlight_off</i></a>
       </div>
     </div><!--MODAL-->

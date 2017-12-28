@@ -1,5 +1,6 @@
 <?php
   require_once('contact.php');
+  include('private/src/config.php');
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -40,21 +41,13 @@
               Pas le temps ? Pas les outils ? Faites appel à Fred !<br><br>
               <span class=" blue-grey darken-1">
                 <ul>
-                  <li class="display">Installer une cuisine</li>
-                  <li>Changer un robinet</li>
-                  <li>Changer un interrupteur</li>
-                  <li>Peindre des volets</li>
-                  <li>Poser une tringle</li>
-                  <li>Installer une salle de bain</li>
-                  <li>Poser un parquet</li>
-                  <li>Relooker une pièce</li>
-                  <li>Poser une terrasse en bois</li>
-                  <li>Poser un luminaire</li>
-                  <li>Changer une prise</li>
-                  <li>Installer un WC</li>
-                  <li>Poser un revêtement mural</li>
-                  <li>Installer un abri de jardin</li>
-                  <li>Et plus encore...</li>
+                  <?php
+                    foreach ($works as $work) {
+                  ?>
+                  <li><?= $work ?></li>
+                  <?php
+                    }
+                  ?>
                 </ul>
               </span>
             </h1>
@@ -85,7 +78,7 @@
     </header><!--HEADER-->
 	<section id="section1" class="row scrollspy">
     <div class="col s12 m8 offset-m2 white-text">
-    <h2 class="center-align blue-grey-text darken-1-text">Je peux vous aider</h2>
+    <h2 class="center-align blue-grey-text darken-1-text">La confiance avant tout</h2>
     </div>
     <div class="separator col s2 offset-s5 divider"></div>
 
@@ -98,15 +91,13 @@
 	 <div class="container">
 	 	<div class="row">
       	<div class="col s12 m8 offset-m2 white-text">
-        <h2 class="center-align white-text">C'est eux qui le disent :)</h2>
+        <h2 class="center-align white-text">Mes clients en parlent le mieux</h2>
         </div>
         <div class="separator col s2 offset-s5 divider"></div>
         <div class="col s12 center-align">
           <div class="slider">
             <ul class="slides">
               <?php
-
-                include 'private/src/testimonials.php';
                 foreach ($testimonials as $key => $value) {
               ?>
               <li>
