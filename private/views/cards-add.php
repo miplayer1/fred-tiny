@@ -13,7 +13,7 @@
 						<div class="card-reveal">
 							<span class="card-title">Simple comme local<i class="material-icons right">close</i></span>
 							<hr>
-							<p>J'interviens sur Ceyreste et les communes environnantes dans un périmètre de 20km.</p>
+							<p>J'interviens sur toute la région PACA.</p>
 							<p>A l'écoute de vos besoins, je peux vous accompager, vous conseiller dans vos choix et passer à l'action.</br>
 								 Je suis disponible pour répondre à toutes vos questions.</p>
 						</div>
