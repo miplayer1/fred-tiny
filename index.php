@@ -57,7 +57,7 @@
                     <div class="col s12 social center-align">
             <span class="white-text"><i class="material-icons">&#xE325;</i><br>+336 12 34 31 70</span>
            </div>
-           <div class="col s12 social center-align"><span class="white-text"><i class="material-icons">&#xE88A;</i><br>J' interviens sur<br>Ceyreste, La Ciotat, Aubagne et alentours</span></div>
+           <div class="col s12 social center-align"><span class="white-text"><i class="material-icons">&#xE88A;</i><br>A votre service sur la région PACA</span></div>
 			</div>
 			<div class="col s12 center-align">
 				                 <a href="https://www.facebook.com/fred.renovationstravaux" target="_blank" ><img src="assets/logo-fb.png" alt="Suivez-nous sur Facebook"></a>
